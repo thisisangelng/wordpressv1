@@ -1,0 +1,257 @@
+/*   
+Theme Name: A Thematic Child Theme
+Theme URI: 
+Description: angel_thematic_v1
+Author: Ian Stewart
+Author URI: http://themeshaper.com/
+Template: thematic
+Version: 1.0
+Tags: Thematic
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/3c-r-fixed-primary.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+#branding {
+padding:15px 0 0;
+}
+
+#wrapper {
+    font-family: helvetica neue, helvetica, Ariel, sans-serif;
+}
+
+.datestamp {
+width: 960px;
+text-align: right;
+margin: 0 auto;
+font-family: helvetica;
+font-size: 15px;
+font-weight: bold;
+padding-top:5px;
+}
+
+#blog-title a {
+background:transparent url(assets/angelng.png) no-repeat scroll 0 0;
+display:block;
+height: 140px;
+width: 200px;
+position:relative;
+text-indent:-1500px;
+color: white;
+margin-left: -7px;
+}
+
+.sf-menu {
+float:right;
+border: none;
+}
+
+.sf-menu a {
+border: none;
+padding:9px 13px;
+text-decoration:none;
+font-size: 14px;
+font-weight: bold;
+}
+
+.sf-menu a:link {
+color: #000000;
+}
+
+.sf-menu a:visited {
+color:#000000;
+}
+
+.sf-menu a:active {
+color: #00cc66;
+}
+
+.sf-menu a:hover {
+color: #00cc66;
+}
+
+#access {
+border-bottom: 3px solid #000000;
+width: 960px;
+margin: 0 auto;
+}
+
+#main {
+padding: 0 0 22px;
+margin-top: -15px;
+}
+
+#content {
+width: 300px;
+margin-left: 0;
+padding-bottom: 40px;
+}
+
+.entry-title {
+padding-top: 5px;
+font-size: 14px;
+}
+
+.entry-title a {
+color: #00cc66;
+}
+
+.entry-title a:hover {
+color: #000000;
+}
+
+.hentry {
+border-bottom: 3px solid #000000;
+width: 300px;
+margin: 0 auto;
+padding: 0;
+font-size: 13px;
+text-align: justify;
+}
+
+#container {
+float:left;
+width: 300px;
+border-top: 3px solid #000000;
+margin-left: 0;
+}
+
+#footer {
+border-top: 3px solid #000000;
+margin-top:22px;
+width: 960px;
+margin: 0 auto;
+}
+
+.aside a {
+color:#000000;
+text-decoration: none;
+font-size: 12px;
+}
+
+.aside a:hover {
+color:#00cc66;
+}
+
+.thinkTwitTweets {
+list-style-type: none;
+color: #000000;
+}
+
+.thinkTwitTweets li {
+padding-top: 7px;
+margin-left: -30px;
+font-size: 12px;
+}
+
+.thinkTwitPublished {
+padding-left: 5px;
+font-style: italic;
+}
+
+.thinkTwitAuthor {
+padding-right: 5px;
+font-style: italic;
+}
+
+#subsidiary {
+padding:15px 0 0;
+}
+
+.aside h3 {
+font-size:15px;
+font-style:normal;
+line-height:22px;
+color: #000000;
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+#siteinfo {
+color:#000000;
+width: 960px;
+margin: 0 auto;
+text-align:center
+}
+
+#siteinfo a {
+color:#000000;
+}
+
+#siteinfo a:hover {
+color:#00cc66;
+}
+
+#categoryheader {
+width: 960px;
+margin: 0 auto;
+}
+
+.categorytitle {
+width: 300px;
+margin-left: 0;
+margin-top: 10px;
+height: 160px;
+}
+
+#creativecategory {
+margin-right: 15px;
+}
+
+#cravingscategory p {
+margin-left: 0;
+}
+
+#randomcategory {
+margin-left: 25px;
+}
+
+#randomcategory p {
+margin-left: 0;
+}
+
+#categoryheader a {
+color:#00cc66;
+text-decoration: none;
+letter-spacing: 1px;
+}
+
+#categoryheader a:hover {
+color:#000000;
+}
+
+.categorytitle p {
+font-weight: bold;
+font-size: 19px;
+padding-top: 5px;
+padding-bottom: 100px;
+}
+
+.floatleft {
+float: left;
+padding-right: 5px;
+}
+
+.floatright {
+float:right;
+padding-left: 5px;
+}
