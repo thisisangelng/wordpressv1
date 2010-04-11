@@ -50,7 +50,7 @@
 // First we make our function
     function category_titles() {
 ?>
-<!Ð Using html to create category titles Ð>
+<!Ð- Using html to create category titles -Ð>
     <div id="categoryheader">
 
         <div id="creativecategory" class="floatleft span-14 append-1 categorytitle">
