@@ -36,7 +36,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 
 #branding {
     padding:15px 0 0;
-    margin-top: -35px;
+    margin-top: -4px;
 }
 
 #wrapper {
@@ -59,7 +59,9 @@ Thematic is © Ian Stewart http://themeshaper.com/
     font-family: helvetica;
     font-size: 14px;
     font-weight: bold;
-    padding-top:14px;
+    padding-top: 10px;
+    margin-bottom: -36px;
+    
 }
 
 #blog-title a {
@@ -105,7 +107,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 }
 
 #access {
-    border-bottom: 3px solid #000000;
+    border-bottom: 2px solid #000000;
     padding-bottom: 2px;
     width: 960px;
     margin: 0 auto;
@@ -132,7 +134,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 }
 
 #footer {
-    border-top: 3px solid #000000;
+    border-top: 2px solid #000000;
     margin-top:22px;
     width: 960px;
     margin: 0 auto;
@@ -264,7 +266,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
     padding-top: 9px;
     padding-bottom: 104px;
     margin-top: -17px;
-    border-bottom: 3px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 
 .floatleft {
@@ -281,7 +283,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 }
 
 .post {
-    border-bottom: 3px solid #000000;
+    border-bottom: 2px solid #000000;
     margin: 0 auto;
     padding: 0;
     font-size: 12px;
@@ -326,12 +328,18 @@ Thematic is © Ian Stewart http://themeshaper.com/
     color: #DFDFDF;
 }
 
+#creativecategory a, #foodcategory a, #randomcategory a {
+    color: #DFDFDF;
+    text-decoration: none;
+}
+
 #creativecategory:hover, #foodcategory:hover, #randomcategory:hover {
     color: #000000;
 }
 
 #foodcategory:hover a, #foodcategory:hover a:visited, #creativecategory:hover a, #creativecategory:hover a:visited, #randomcategory:hover a, #randomcategory:hover a:visited {
     color: #00cc66;
+    text-decoration: underline;
 }
 
 #creativecategory:hover a:hover, #foodcategory:hover a:hover, #randomcategory:hover a:hover {
@@ -345,10 +353,6 @@ Thematic is © Ian Stewart http://themeshaper.com/
 
 #container {
     display: none;
-}
-
-#wrapper a {
-    color: #DFDFDF;
 }
 
 #access a {
@@ -391,4 +395,33 @@ Thematic is © Ian Stewart http://themeshaper.com/
 #portfolioother {
     width: 300px;
     margin: 0 auto;
+}
+
+.post {
+    width: 300px;
+}
+
+.single {
+    color: #000000;
+}
+
+.single a {
+    color: #00cc66;
+}
+
+.entry-title a {
+    color: #00cc66;
+}
+
+.entry-title a:hover {
+    color: #00cc66;
+    text-decoration: underline;
+}
+
+.books {
+    padding-bottom: 40px;
+}
+
+.bookshelf {
+    width: 300px;
 }
